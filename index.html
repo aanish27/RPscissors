@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <title> Beat MrBeast </title>
+    <script defer src="index.js"> </script>
+    
+    
 </head>
-<body>
-    <script src ="index.js"></script>
-    <h1> Its working! </h1>
+
+<body>  
+    <!--browser-sync start --server --files "*.html,*.css,*.js"-->
+
+<div id="start">
+    <div class="welcome">      
+        <div class="text"> HELP!! Mrbeast <br> to beat the rock</div>
+        <a style="font-size: 20px; color: ;" href="https://youtube.com/shorts/S_CUEOBZ0P4?feature=share">Full context</a>
+        <button class="play">Play</button>
+    </div>
+    <div id="end" class="end">
+        <div class="text"></div>
+        <button class="play"></button>
+    </div>
+</div>
+
+
+
+<div id="game" > 
+    
+    <div class="round">
+        Round - <div class="num2"> 1 </div> 
+    </div>
+    <div class="comment">
+        Let's start!!
+    </div>
+    <div class="players">
+        <div class="you">  
+            <div class="emoji"></div>
+            <div class="rps"> 
+                <button id="rock" class="btn" >&#9994;</button>
+                <button id="paper" class="btn">&#9995;</button>
+                <button id="scissors" class="btn">&#9996;</button>
+            </div>
+            <div class="name">You</div>
+             <div class="score">score: <div class="num">0</div></div>
+        </div>
+        <div class="vs">vs</div>
+        <div class="mrbeast">
+            <div class="emoji"></div>
+            <div class="txt"> You Never Know </div>
+            <div class="name">MrBeast</div>           
+            <div class="score">score: <div class="num">0</div></div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
